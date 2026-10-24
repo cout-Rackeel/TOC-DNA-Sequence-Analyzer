@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "DNA Sequence Analyzer"
+version = "0.1.0"
+authors = [
+    { name="Rackeel Brooks" },
+]
+description = "This project aims to design and implement a software system that accepts a DNA sequence over the alphabet Σ = {𝐴,𝐶,𝐺,𝑇}"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    
+]
