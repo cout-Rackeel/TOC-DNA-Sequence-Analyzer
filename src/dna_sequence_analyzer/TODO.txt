@@ -1,0 +1,1 @@
+1. Add empty as a valid input in the alphabet
