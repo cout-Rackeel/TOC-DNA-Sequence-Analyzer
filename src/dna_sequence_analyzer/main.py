@@ -1,6 +1,6 @@
 import StartCodonDFA as startDFA
 import ValidationDFA as validateDFA
-# Main program
+
 start_dfa = startDFA.StartCodonDFA()
 validation_dfa = validateDFA.ValidationDFA()
 
