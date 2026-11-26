@@ -1,5 +1,8 @@
-start_dfa = StartCodonDFA()
-validation_dfa = ValidationDFA()
+import StartCodonDFA as startDFA
+import ValidationDFA as validateDFA
+# Main program
+start_dfa = startDFA.StartCodonDFA()
+validation_dfa = validateDFA.ValidationDFA()
 
 while True:
     dna_sequence = input("Enter Sequence or 0 to close: ")
