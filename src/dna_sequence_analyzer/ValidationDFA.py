@@ -1,7 +1,7 @@
 def __init__(self):
         self.state = 0
 
-    def process(self, input):
+def process(self, input):
         self.state = 0
 
         for symbol in input:
