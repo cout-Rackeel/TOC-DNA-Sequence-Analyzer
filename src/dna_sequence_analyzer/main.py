@@ -41,4 +41,4 @@ tga_stop_codeon_dfa = Automata.DFA(tga_stop_codeon_states, alphabet, Automata.tg
 
 nfa = Automata.concatenate_dfas(start_codeon_dfa , middle_motif_dfa, taa_stop_codeon_dfa, tag_stop_codeon_dfa, tga_stop_codeon_dfa)
 
-nfa.test_if_string_is_vaild("atgatatatattaag")
+nfa.test_if_string_is_vaild("")
